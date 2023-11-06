@@ -15,7 +15,6 @@
         </button>
     </NuxtLink>
 
-    <h1> Artwork </h1>
     <h1>Artwork</h1>
         <Grid xs={12}>
 
