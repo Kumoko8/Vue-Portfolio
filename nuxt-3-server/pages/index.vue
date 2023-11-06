@@ -8,7 +8,7 @@ import type { NuxtLink } from '#build/components';
 <template>
     <div>
 
-        <img id="logo-image" className="image-deco" src='/kiroLogo.PNG'>
+        <img id="logo-image" src='/kiroLogo.PNG'>
 
 
         <h2 className="read-the-docs">

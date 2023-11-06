@@ -1,4 +1,5 @@
 <template>
+    <img id="logo-image" src='/kiroLogo.PNG'>
     <p>
         Thank you for visiting my page. Featured are some of my best and most enjoyable applications
         from my time in bootcamp and beyond. I first got into the tech field because of my interest in the intersection

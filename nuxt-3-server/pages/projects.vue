@@ -1,10 +1,9 @@
 <template>
      <div>
             <div>
-                <h1> Current Projects </h1>
-                <NuxtLink to="/about">
+                <NuxtLink to="/artwork">
                     <button>
-                        About
+                        Artwork
                     </button>
                 </NuxtLink>
                 <NuxtLink to="/contact">
@@ -18,6 +17,7 @@
                     </button>
                 </NuxtLink>
             </div>
+            <h1> Current Projects </h1>
             <div> <h3>Click each image to view the app!</h3></div>
             <section>
                 <a href="/Fitness-Tracker.pdf" target="_blank">

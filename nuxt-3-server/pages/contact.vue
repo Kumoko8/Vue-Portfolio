@@ -1,49 +1,39 @@
 <template>
-    <form action="/api/contact" >
-          <Grid item>
+    <NuxtLink to="/about">
+        <button>
+       About 
+        </button>
 
-          <div>
-            <TextField 
-            type="text"
-             name="name" 
-             className="roboto-font"
-             placeholder="Type your name here"
-              value={name} 
-              onChange={this.handleChange} 
-              required />
-          </div>
-          </Grid>
-          <Grid item>
-            
-          <div>
-            <TextField
-              type="email"
-              name="email"
-              className="roboto-font"
-              placeholder='Type your email here'
-              value={email}
-              onChange={this.handleChange}
-              onBlur={this.handleEmailBlur}
-              required
-            />
-            {emailError && <span className="error">{emailError}</span>}
-          </div>
-          </Grid>
-          <Grid item>
+    </NuxtLink>
+    <NuxtLink to="/grow">
+        <button>
+       Grow
+        </button>
 
-          <div>
-            <TextField 
-            name="message" 
-            className="roboto-font"
-            placeholder='Tell me a bit about yourself!' 
-            value={message} 
-            onChange={this.handleChange} 
-            required />
-          </div>
-          </Grid>
-          <Grid item>
+    </NuxtLink>
+    <NuxtLink to="/artwork">
+        <button>
+       Artwork
+        </button>
+    </NuxtLink>
 
-          <Button type="submit" className="roboto-font">Submit</Button>
-          </Grid>
-        </form>
+    <h1> Contact </h1>
+    <form>
+
+
+        <div>
+            <input type="text" name="name" className="roboto-font" placeholder="Type your name here" required>
+        </div>
+
+        <div>
+            <input type="email" name="email" className="roboto-font" placeholder='Type your email here' required>
+        </div>
+
+        <div>
+            <input name="message" className="roboto-font" placeholder='Tell me a bit about yourself!' required>
+        </div>
+
+
+        <Button type="submit" className="roboto-font">Submit</Button>
+    </form>
 </template>
