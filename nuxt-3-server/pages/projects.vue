@@ -1,7 +1,7 @@
 <template>
      <div>
             <div>
-                <h1> Portfolio</h1>
+                <h1> Current Projects </h1>
             </div>
             <div> <h3>Click each image to view the app!</h3></div>
             <section>
@@ -22,7 +22,7 @@
             </section>
             <section>
             <a href="https://kumoko8.github.io/Weather-App-Serverside-API/" target="_blank">
-                    <img className="image-deco" src='../../WeatherApp.png'>
+                    <img className="image-deco" src='/WeatherApp.png'>
                 </a>
             </section>
             <section>
@@ -31,7 +31,7 @@
             
             <section>
             <a href="https://kumoko8.github.io/Web-APIs-Quiz-Homework-4/" target="_blank">
-                    <img className="image-deco" src='../../quiz.png'>
+                    <img className="image-deco" src='/quiz.png'>
                 </a>
             </section>
             <section>

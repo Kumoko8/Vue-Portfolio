@@ -7,7 +7,7 @@
         make
         learning and communication more effective, enjoyable, and aesthetically pleasing.
     </p>
-    <NuxtLink >
+    <NuxtLink to="/projects">
         <button>
             Projects
         </button>
