@@ -12,7 +12,7 @@
             Projects
         </button>
     </NuxtLink>
-    <NuxtLink >
+    <NuxtLink to="/contact">
         <button>
             Contact
         </button>

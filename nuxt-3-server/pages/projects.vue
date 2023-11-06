@@ -2,6 +2,21 @@
      <div>
             <div>
                 <h1> Current Projects </h1>
+                <NuxtLink to="/about">
+                    <button>
+                        About
+                    </button>
+                </NuxtLink>
+                <NuxtLink to="/contact">
+                    <button>
+                        Contact
+                    </button>
+                </NuxtLink>
+                <NuxtLink to="/grow">
+                    <button>
+                        Grow
+                    </button>
+                </NuxtLink>
             </div>
             <div> <h3>Click each image to view the app!</h3></div>
             <section>
