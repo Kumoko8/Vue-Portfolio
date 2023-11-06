@@ -36,4 +36,7 @@
 
         <Button type="submit" className="roboto-font">Submit</Button>
     </form>
+
+    <a href="/ResumeGeneral.pdf"> <h4> View Resume </h4> </a>
+
 </template>

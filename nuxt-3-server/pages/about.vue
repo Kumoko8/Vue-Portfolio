@@ -18,4 +18,9 @@
             Contact
         </button>
     </NuxtLink>
+    <NuxtLink to="/">
+        <button>
+            Home
+        </button>
+    </NuxtLink>
 </template>

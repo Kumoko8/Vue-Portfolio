@@ -19,6 +19,8 @@
             </div>
             <h1> Current Projects </h1>
             <div> <h3>Click each image to view the app!</h3></div>
+
+            <div class="h-screen">
             <section>
                 <a href="/Fitness-Tracker.pdf" target="_blank">
                     <img className="image-deco" src='/running.png'>
@@ -53,6 +55,9 @@
             <a href="https://github.com/Kumoko8/Web-APIs-Quiz-Homework-4.git" target="_blank"><button>JavaScript Quiz</button></a>
             </section>
            
+           
+
+            </div>
             
         </div>
 </template>

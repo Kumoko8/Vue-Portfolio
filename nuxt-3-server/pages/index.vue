@@ -7,8 +7,9 @@ import type { NuxtLink } from '#build/components';
 
 <template>
     <div>
+        <h1> Taylor Golden </h1>
 
-        <img id="logo-image" src='/kiroLogo.PNG'>
+        <img id="logo-image" class="a-center" src='/kiroLogo.PNG'>
 
 
         <h2 className="read-the-docs">
@@ -16,7 +17,7 @@ import type { NuxtLink } from '#build/components';
         </h2>
 
         <NuxtLink to="/about">
-            <button>
+            <button >
                 Enter
 
             </button>

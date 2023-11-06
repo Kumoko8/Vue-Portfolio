@@ -4,7 +4,7 @@
   </div>
 </template>
 
-pages
+<!-- pages
 
 home
 about
@@ -12,4 +12,6 @@ projects
 Grow
 Contact
 artwork
-Seeds
+Seeds -->
+
+tailwind 
