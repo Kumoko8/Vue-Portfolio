@@ -18,7 +18,7 @@
                 </NuxtLink>
             </div>
             <h1> Current Projects </h1>
-            <div> <h3>Click each image to view the app!</h3></div>
+            <div> <h4>Click each image to view the app!</h4></div>
 
             <div class="h-screen">
             <section>

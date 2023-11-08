@@ -1,8 +1,9 @@
 <template>
   <div>
-    <NuxtPage />
+    <NuxtPage/>
   </div>
 </template>
+
 
 <!-- pages
 
@@ -14,4 +15,4 @@ Contact
 artwork
 Seeds -->
 
-tailwind 
+<!-- tailwind  -->

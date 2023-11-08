@@ -9,7 +9,7 @@ import type { NuxtLink } from '#build/components';
     <div>
         <h1> Taylor Golden </h1>
 
-        <img id="logo-image" src='/kiroLogo.PNG'>
+        <img src="/kiroLogo.PNG"/>
 
 
         <h2 >
