@@ -2,7 +2,7 @@
     <img id="logo-image" src='/kiroLogo.PNG'>
     <section class="button-section">
 
-        <NuxtLink to="/projects">
+        <NuxtLink to="/growing">
             <button>
                 Projects
             </button>

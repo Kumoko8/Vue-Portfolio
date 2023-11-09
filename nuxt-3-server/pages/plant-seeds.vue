@@ -5,9 +5,9 @@
         </button>
 
     </NuxtLink>
-    <NuxtLink to="/grow">
+    <NuxtLink to="/Cultivate">
         <button>
-       Grow
+       Cultivate
         </button>
     </NuxtLink>
     

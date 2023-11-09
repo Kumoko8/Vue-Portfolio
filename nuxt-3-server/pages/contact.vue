@@ -5,15 +5,15 @@
         </button>
 
     </NuxtLink>
-    <NuxtLink to="/grow">
+    <NuxtLink to="/cultivate">
         <button>
-       Grow
+       Cultivate
         </button>
 
     </NuxtLink>
-    <NuxtLink to="/artwork">
+    <NuxtLink to="/fruit">
         <button>
-       Artwork
+       Fruit
         </button>
     </NuxtLink>
 
