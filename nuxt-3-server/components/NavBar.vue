@@ -1,25 +1,17 @@
+<script setup>
+const navLinks = useNavLinks();
+const navEndpoints = useEdpoints();
+</script>
+
 <template>
 
-  <div>
-    <p>Counter: {{ $store.state.counter }}</p>
-    <button @click="$store.commit('increment')">Increment</button>
-  </div>
-
-
-    <NuxtLink> Home </NuxtLink>
-    <NuxtLink> About </NuxtLink>
-    <NuxtLink> Contact </NuxtLink>
-    <NuxtLink> Fruit </NuxtLink>
-    <NuxtLink> Seeds </NuxtLink>
-    <NuxtLink> Cultivate </NuxtLink>
-    <NuxtLink> Growing </NuxtLink>
+<!-- I want this to display an array of nuxt links that change as each page goes -->
+<ul>
+    <li v-for="links in navLinks" :key="links"><NuxtLink>{{ links }}</NuxtLink></li>
+</ul>
+    
     
 </template>
 
 
-<script>
-export default {
-  name: 'NavBar'
-}
-</script>
 
