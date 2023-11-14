@@ -1,42 +1,49 @@
 <template>
     <NuxtLink to="/about">
         <button>
-       About 
+            About
         </button>
 
     </NuxtLink>
     <NuxtLink to="/cultivate">
         <button>
-       Cultivate
+            Cultivate
         </button>
 
     </NuxtLink>
     <NuxtLink to="/fruit">
         <button>
-       Fruit
+            Fruit
         </button>
     </NuxtLink>
 
-    <h1> Contact </h1>
-    <form>
+    <a href="https://share.hsforms.com/1uOdn7b8wR7yy4xUNUmEeLAqfs72"> <h1> Contact Me Here </h1> </a>
 
+    <div id="formContainer">
 
-        <div>
-            <input type="text" name="name" className="roboto-font" placeholder="Type your name here" required>
-        </div>
+    </div>
+    <div>
+        <p> Meet with Me </p>
+<div>
+    <Meeting/>
+</div>
+      
 
-        <div>
-            <input type="email" name="email" className="roboto-font" placeholder='Type your email here' required>
-        </div>
+    </div>
 
-        <div>
-            <input name="message" className="roboto-font" placeholder='Tell me a bit about yourself!' required>
-        </div>
-
-
-        <Button type="submit" className="roboto-font">Submit</Button>
-    </form>
-
-    <a href="/ResumeGeneral.pdf"> <h4> View Resume </h4> </a>
-
+    <div>
+        <a href="/ResumeGeneral.pdf">
+            <h4> View Resume </h4>
+        </a>
+    </div>
 </template>
+<script>
+import ContactForm from '@/components/ContactForm.vue'; // Adjust the path based on your project structure
+
+export default {
+  components: {
+    ContactForm,
+  },
+  // Other options for your page or component
+};
+</script>
