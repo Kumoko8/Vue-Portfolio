@@ -25,7 +25,6 @@ import type { NuxtLink } from '#build/components';
       
         <!-- {{ scizor }} -->
 
-        <img src="/images/kiroLogo.PNG"/>
 
 
         <h2 >
