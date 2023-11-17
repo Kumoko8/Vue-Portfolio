@@ -8,7 +8,8 @@ export default defineNuxtConfig({
 
       ['@nuxtjs/google-fonts', {
         families: {
-          'Jost': [400, 500, 600, 700],
+          Modak: true,
+          Roboto: true
         }
       }
 

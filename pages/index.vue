@@ -19,19 +19,20 @@ import type { NuxtLink } from '#build/components';
 
 </script>
 
-<template>
-    <div>
-        <h1> Taylor Golden </h1>
-<NuxtImg src="/images/kiiro-lite.png"/>
+<template >
+    
+    <div class="bg-[url('/images/kiiro-lite.png')] bg-cover bg-center min-h-screen ">
+        <h1 class="font-heading text-6xl text-center text-yellow-300"> Taylor Golden </h1>
 
 
 
-        <h2 class="font-body">
+
+        <h2 class="font-body text-lg text-center text-emerald-300 ">
             Software Developer, Educator, Illustrator, Dad
         </h2>
 
         <NuxtLink to="/about" >
-            <button class="bg-yellow-300 px-3 py-1 text-base font-semibold text-black rounded-xl w-36 max-h-fit hover:bg-emerald-300">
+            <button class="flex grid grid-cols-1 place-content-around bg-yellow-300 px-3 py-1 text-base font-semibold text-black rounded-xl w-36 max-h-fit hover:bg-emerald-300 align-items-center text-center">
                 Enter
 
             </button>
@@ -41,7 +42,7 @@ import type { NuxtLink } from '#build/components';
     </div>
 </template>
 <style >
-  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Modak&display=swap');
+  
 
 
 </style>
