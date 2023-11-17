@@ -21,15 +21,14 @@ import type { NuxtLink } from '#build/components';
 
 <template >
     <div
-        class="sticky top-0 grid grid-cols-1 grid-rows-1 items-start justify-items-center bg-[url('/images/kiiro-lite.png')] bg-cover bg-center min-h-screen ">
-        <h1 class="font-heading text-6xl text-center text-yellow-300 drop-shadow-xl"> Taylor Golden </h1>
-        <h2 class="font-body-800 font-extrabold text-lg text-center text-emerald-300 drop-shadow-xl ">
+        class="grid grid-cols-1 grid-rows-2 items-start justify-items-center align-items-center bg-[url('/images/kiiro-lite.png')] bg-cover bg-center min-h-screen ">
+        <h2 class="font-body-800 font-extrabold text-xl text-center text-emerald-300 drop-shadow-xl mt-12  ">
             Software Developer, Educator, Illustrator, Dad
         </h2>
 
         <NuxtLink to="/about">
             <button
-                class=" bg-yellow-300 px-3 py-1 text-base font-semibold text-black rounded-xl w-36 mb-8 max-h-fit hover:bg-emerald-300 text-center">
+                class=" bg-yellow-300 px-3 py-1 text-base font-semibold text-black rounded-xl w-36 mb-52 max-h-fit hover:bg-emerald-300 text-center">
                 Enter
 
             </button>
@@ -37,6 +36,6 @@ import type { NuxtLink } from '#build/components';
        
 
     </div>
-    <div class="sticky top-0"></div>
+    
 </template>
 <style ></style>
