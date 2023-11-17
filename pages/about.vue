@@ -1,5 +1,5 @@
 <template>
-    <img id="logo-image" src='/kiroLogo.PNG'>
+    <img id="logo-image" src="/images/kiroLogo.PNG">
     <section class="button-section">
 
         <NuxtLink to="/growing">

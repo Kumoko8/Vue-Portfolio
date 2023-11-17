@@ -16,19 +16,16 @@ import type { NuxtLink } from '#build/components';
 
 //it already processes json for you, so you don't need .then
 //need to return the data
-const { data } = await useFetch('/api/weather')
+
 </script>
 
 <template>
     <div>
         <h1> Taylor Golden </h1>
-        <pre>
-            {{ data }}
-
-        </pre>
+      
         <!-- {{ scizor }} -->
 
-        <img src="/kiroLogo.PNG"/>
+        <img src="/images/kiroLogo.PNG"/>
 
 
         <h2 >

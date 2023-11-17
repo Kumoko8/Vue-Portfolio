@@ -24,7 +24,7 @@
             
             <section>
                 <a href="https://kumoko8.github.io/Front-End-App-DnD-Character-Project/" target="_blank">
-                    <img className="image-deco" src='/DnD.png'>
+                    <img className="image-deco" src='/images/DnD.png'>
                 </a>
             </section>
             <section>
@@ -32,7 +32,7 @@
             </section>
             <section>
             <a href="https://kumoko8.github.io/Web-APIs-Quiz-Homework-4/" target="_blank">
-                    <img className="image-deco" src='/quiz.png'>
+                    <img className="image-deco" src='/images/quiz.png'>
                 </a>
             </section>
             <section>
@@ -43,8 +43,8 @@
                 <p class="app-coming">Coming Soon! Click for sneak peek</p>
             </div>
             <section>
-                <a href="/Fitness-Tracker.pdf" target="_blank">
-                    <img className="image-deco" src='/running.png'>
+                <a href="/files/Fitness-Tracker.pdf" target="_blank">
+                    <img className="image-deco" src='/images/running.png'>
                 </a>
             </section>
             
