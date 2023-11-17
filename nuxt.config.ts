@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       ['@nuxtjs/google-fonts', {
         families: {
           Modak: true,
-          Roboto: true
+          Roboto: [400, 800]
         }
       }
 

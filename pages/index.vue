@@ -20,29 +20,23 @@ import type { NuxtLink } from '#build/components';
 </script>
 
 <template >
-    
-    <div class="bg-[url('/images/kiiro-lite.png')] bg-cover bg-center min-h-screen ">
-        <h1 class="font-heading text-6xl text-center text-yellow-300"> Taylor Golden </h1>
-
-
-
-
-        <h2 class="font-body text-lg text-center text-emerald-300 ">
+    <div
+        class="sticky top-0 grid grid-cols-1 grid-rows-1 items-start justify-items-center bg-[url('/images/kiiro-lite.png')] bg-cover bg-center min-h-screen ">
+        <h1 class="font-heading text-6xl text-center text-yellow-300 drop-shadow-xl"> Taylor Golden </h1>
+        <h2 class="font-body-800 font-extrabold text-lg text-center text-emerald-300 drop-shadow-xl ">
             Software Developer, Educator, Illustrator, Dad
         </h2>
 
-        <NuxtLink to="/about" >
-            <button class="flex grid grid-cols-1 place-content-around bg-yellow-300 px-3 py-1 text-base font-semibold text-black rounded-xl w-36 max-h-fit hover:bg-emerald-300 align-items-center text-center">
+        <NuxtLink to="/about">
+            <button
+                class=" bg-yellow-300 px-3 py-1 text-base font-semibold text-black rounded-xl w-36 mb-8 max-h-fit hover:bg-emerald-300 text-center">
                 Enter
 
             </button>
         </NuxtLink>
-        
+       
 
     </div>
+    <div class="sticky top-0"></div>
 </template>
-<style >
-  
-
-
-</style>
+<style ></style>

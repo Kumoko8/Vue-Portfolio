@@ -3,13 +3,17 @@
 </script>
 
 <template>
-  <div>
-    <NavBar/>
+  <div class="flex flex-col h-screen">
+    <div>
+      <NavBar class="sticky top-0 "/>
+    </div>
+    
+  
+    <div class="flex-1 overflow-y-auto">
+      <NuxtPage />
+
+    </div>
   </div>
-  <div>
-    <NuxtPage/>
-  </div>
- 
 </template>
 
 
