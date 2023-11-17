@@ -6,5 +6,12 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
       '@nuxt/image',
 
+      ['@nuxtjs/google-fonts', {
+        families: {
+          'Jost': [400, 500, 600, 700],
+        }
+      }
+
     ]
+  ]
 })
